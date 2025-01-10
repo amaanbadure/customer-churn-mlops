@@ -50,7 +50,7 @@ if __name__ == "__main__":
     # Load and preprocess test data
     preprocessor = DataPreprocessor()
     X, y, features = preprocessor.process_pipeline(
-        "https://raw.githubusercontent.com/IBM/telco-customer-churn-dataset/master/Telco-Customer-Churn.csv"
+        "https://raw.githubusercontent.com/nikhilsthorat03/Telco-Customer-Churn/refs/heads/main/telco.csv"
     )
     
     # Validate model

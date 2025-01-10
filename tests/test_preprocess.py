@@ -21,7 +21,7 @@ def sample_data():
 
 def test_load_data(preprocessor, sample_data):
     # Test data loading and cleaning
-    df = preprocessor.load_data("https://raw.githubusercontent.com/IBM/telco-customer-churn-dataset/master/Telco-Customer-Churn.csv")
+    df = preprocessor.load_data("https://raw.githubusercontent.com/nikhilsthorat03/Telco-Customer-Churn/refs/heads/main/telco.csv")
     assert isinstance(df, pd.DataFrame)
     assert not df['TotalCharges'].isnull().any()
 

@@ -52,6 +52,6 @@ class DataPreprocessor:
 if __name__ == "__main__":
     preprocessor = DataPreprocessor()
     X, y, features = preprocessor.process_pipeline(
-        "https://raw.githubusercontent.com/IBM/telco-customer-churn-dataset/master/Telco-Customer-Churn.csv"
+        "https://raw.githubusercontent.com/nikhilsthorat03/Telco-Customer-Churn/refs/heads/main/telco.csv"
     )
     logger.info(f"Preprocessing complete. Features shape: {X.shape}")
